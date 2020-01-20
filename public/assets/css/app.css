@@ -1,0 +1,547 @@
+::-webkit-scrollbar
+{
+  width: 1px !important;  
+  /* height: 12px !important;  */
+}
+/*--------- navbar ------*/
+
+.navbar {
+  padding-top: 0.225rem !important;
+  margin-bottom: 0px!important;
+  padding-bottom: 0.225rem !important;
+  min-height: 30px !important;
+}
+
+.navbar .navbar-brand {
+  padding-top: 0rem !important;
+  padding-bottom: 0rem !important;
+}
+
+/*--------- React Table ------*/
+
+.ReactTable .rt-th, .ReactTable .rt-td {
+    padding: 1px 5px !important; 
+    font-size: 14px !important;
+    text-align: center;
+  }
+
+  .ReactTable .rt-thead.-headerGroups {
+    display: none !important;
+}
+  .ReactTable .rt-thead.-filters input, .ReactTable .rt-thead.-filters select {
+    padding: 1px 7px !important;
+    border-radius: 0px !important;
+  }
+  .ReactTable .-pagination .-btn {
+    height: inherit !important;
+    padding: 3px 20px !important;
+    font-size: 15px !important;
+  }
+  
+  .ReactTable .-pagination input, .ReactTable .-pagination select {
+    padding: 0px 7px !important;
+    font-size: 14px !important;
+  }
+  .ReactTable .rt-thead .rt-resizable-header {
+    background: #f6f9fc !important;
+    color: #8898aa !important;
+  }
+  .ReactTable .rt-thead .rt-th.-sort-desc, .ReactTable .rt-thead .rt-td.-sort-desc {
+    box-shadow: inset 0 -2px 0 0 rgba(76, 76, 76, 0.6) !important;
+  }
+
+.ReactTable .rt-tbody .rt-td {
+  margin-bottom: 3px !important;
+}
+
+.ReactTable .rt-th, .ReactTable .rt-td {
+  padding: 1px 1px !important;
+  font-size: 11px !important;
+  text-align: center;
+  vertical-align: middle;
+  text-align: center;
+  margin-bottom: 4px !important;
+  height: 14px;
+}
+
+.ReactTable .-pagination {
+  padding-bottom: 0px !important;
+  padding-top: 0px !important;
+}
+
+.react-grid-checkbox, .react-grid-checkbox-label, .radio-custom, .radio-custom-label {
+  display: none !important;;
+}
+
+  /* display
+
+/*--------- React Table ------*/
+
+
+/*--------- Modal ------*/
+.modal-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 150%;
+    pointer-events: auto;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 0.3rem;
+    outline: 0;
+}
+
+/*--------- Breadcrumb ------*/
+.breadcrumb 
+{ 
+  padding: 0.2rem 1rem !important;
+  background-color: #ffffff !important;
+  margin-bottom: 0rem !important;
+  font-size: 12px;
+}
+
+/*------Button ----*/
+.btn-info {
+  width: 250px !important;
+}
+
+
+.right.col-2 {
+  text-align: right;
+}
+@media (min-width: 992px){
+
+.modal-lg, .modal-xl {
+    max-width: 90vw !important;
+}
+}
+
+.modal-header .close {
+  padding: 0px !important;
+  margin: 0px !important;
+}
+
+.form-group .form-control, .input-group .form-control {
+  padding: 5px !important;
+  height: 20px !important;
+  padding: 0.375rem 0.75rem !important ;
+  font-size: 12px !important;
+}
+
+.form-control {
+  border-radius: 0px !important;
+}
+
+.compact-form .col-md-1, .compact-form .col-md-2, .compact-form .col-md-3, .compact-form .col-md-4, .compact-form .col-md-5, .compact-form .col-md-6, .compact-form .col-md-7, .compact-form .col-md-8, .compact-form .col-md-9, .compact-form .col-md-10, .compact-form .col-md-11, .compact-form .col-md-12,
+.compact-form .col-lg-1, .compact-form .col-lg-2, .compact-form .col-lg-3, .compact-form .col-lg-4, .compact-form .col-lg-5, .compact-form .col-lg-6, .compact-form .col-lg-7, .compact-form .col-lg-8, .compact-form .col-lg-9, .compact-form .col-lg-10, .compact-form .col-lg-11, .compact-form .col-lg-12{
+  position: relative;
+  width: 100%;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.header-form .modal-title {
+  margin-bottom: 0;
+  line-height: 1.5;
+  width: 90% !important;
+}
+
+.header-form .input-group, .form-group {
+  margin-bottom: 0px !important;
+}
+
+.modal-body {
+  padding: 1rem 25px !important;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:active:hover, .btn-primary.active:hover, .show > .btn-primary.dropdown-toggle, .show > .btn-primary.dropdown-toggle:focus, .show > .btn-primary.dropdown-toggle:hover {
+  background-color: #FF9800 !important;
+  box-shadow: 1px 1px 4px 7px #eee !important;
+  border-color: #FFC107;
+}
+
+.header-step .i{
+font-size: 15px !important;
+font-weight: 600;
+}
+
+.list-group-item.active {
+  background-color: #5e72e4!important;
+}
+
+.list-group-item {
+  padding: 0.2rem 0.5rem !important;
+}
+
+.btn-neutral {
+  background: transparent;
+  color: #000;
+  padding: 0px !important;
+  width: 80% !important;
+  text-align: left !important;
+}
+.btn-neutral:hover {
+  background: transparent;
+  color: #eee;
+}
+
+.list-item p{
+  width: 80%;
+  float: left;
+  text-align: left;
+  margin: 0px !important;
+}
+
+.list-item .icon{
+  width: 25px;
+  height: 20px;
+  cursor: pointer;
+  float: right;
+  z-index: 99 !important;
+  text-align: center;
+}
+
+.row-icon{
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  float: right;
+  z-index: 99 !important;
+  text-align: center;
+}
+
+.signin{
+  width: 100%;
+  height: 100%;
+  border-radius: 0rem !important;
+  background: transparent;
+}
+
+.logo {
+  max-width: 100%;
+  height: 35px !important;
+  border-radius: 0rem !important;
+  background: transparent;
+}
+
+.script-header{
+    left: 0;
+    line-height: 200px;
+    margin-top: -100px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+}
+
+.header {
+  color: black
+}
+
+.action {
+  color: dodgerblue
+}
+
+
+/*--------- React Grid Data ------*/
+.react-grid-Main {
+ font-size: 11px !important;
+ padding:0px !important;
+ outline: 0px !important;
+ text-align: left !important;
+ background-color:#d9dfe2 !important;
+}
+
+.react-grid-HeaderCell {
+  padding: 3px !important;
+  background-color: darkslategray !important;
+  color: #fff !important;
+}
+
+.react-grid-Canvas{
+  background-color:#d9dfe2 !important;
+}
+
+.rdg-cell-action-button {
+  width: 20px !important
+}
+
+.rdg-cell-action-button {
+  cursor: pointer !important;
+ color: #495057 !important;
+}
+
+.react-grid-Toolbar {
+  border-width: 0px !important;
+  padding: 0px !important;
+  height: 0px  !important;
+}
+
+.rdg-cell-action-last {
+  margin-right: 0px;
+}
+
+.react-grid-Toolbar .btn {
+    padding: 0px 12px !important;
+    margin: 0px !important;
+    font-size: 12px !important;
+    background: transparent !important;
+    border: none !important;
+}
+
+.react-grid-Cell {
+  background-color: #ffffff !important;
+  padding-left: 8px !important;
+  padding-right: 8px !important;
+  border-left: 0.5px solid #504d4d !important;
+  border-bottom: 1px solid #504d4d !important;
+  color: black !important;
+  background-color: #e1e0ea !important;
+  font-weight: 600 !important;
+}
+
+
+select.editor-main {
+  display: block !important;
+  width: 100% !important;
+  /* height: 4px !important; */
+  padding:0 !important;
+  font-size: 10px !important;
+  line-height: 1.42857143 !important;
+  background-color: white !important;
+  color: #b32c2c !important;
+  background-color: #ffffff !important;
+  background-image: none !important;
+  border: 1px solid #cccccc !important;
+  border-radius: 4px !important;
+ 
+}
+
+/*--------- React Grid Data ------*/
+
+.MuiTableCell-root {
+  display: table-cell !important;
+  font-size: 0.875rem !important;
+  text-align: left !important;
+  padding:0px 3px 0px 3px !important;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif !important;
+  font-weight: 400 !important;
+  line-height: 1.43 !important;
+  border-bottom: 1px solid rgba(224, 224, 224, 1) !important;
+  letter-spacing: 0.01071em !important;
+  vertical-align: inherit !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  white-space: nowrap !important;
+  border:1px solid lightgrey !important;
+}
+
+.MuiIconButton-root {
+  flex: 0 0 auto !important;
+  /* color: rgba(0, 0, 0, 0.54) !important; */
+  padding:0px !important;
+  overflow: visible !important;
+  font-size: 1.5rem !important;
+  text-align: center !important;
+  transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms !important;
+  border-radius: 50% !important;
+}
+
+
+.MuiSnackbarContent-root {
+  flex-grow: initial;
+  min-width: 0px !important;
+}
+
+.MuiToolbar-regular {
+    min-height: 5px !important;
+}
+
+/* .MuiTableCell-head{
+background-color: #a06b0e !important;
+} */
+
+.MuiFormControl-marginNormal {
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+}
+
+.MuiMenuItem-root{
+  
+}
+
+ .MuiTableCell-alignLeft{
+  padding:5px !important;
+} 
+
+#file { display: none }
+
+.material-icons {
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+}
+
+.MuiTreeItem-content {
+  width: 100% !important;
+  cursor: pointer !important;
+  display: unset !important;
+  align-items: center !important;
+}
+
+.MuiTreeItem-iconContainer {
+  width: 24px !important;
+  display: flex !important;
+  margin-right: 2px !important;
+  justify-content: center !important;
+  float: right !important;
+}
+
+.MuiTab-textColorPrimary.Mui-selected{
+  background-color: lightgray !important;
+}
+
+.MuiTabs-flexContainer{
+  float: right !important;
+}
+
+.MuiTabs-indicator{
+  bottom:0
+}
+
+.tree-view {
+  text-align: left !important;
+  overflow-y: hidden !important;
+}
+
+.tree-view_item {
+  /* immediate child of .tree-view, for styling convenience */
+}
+
+/* style for the children nodes container */
+.tree-view_children {
+  margin-left: 16px !important;
+}
+
+.tree-view_children-collapsed {
+  height: 0px !important;
+}
+
+.tree-view_arrow {
+  cursor: pointer !important;
+  display: inline-block !important;
+  -webkit-user-select: none !important;
+  -moz-user-select: none !important;
+  -ms-user-select: none !important;
+  user-select: none !important;
+}
+
+.tree-view_arrow:after {
+  content: '▾' !important ;
+}
+
+/* rotate the triangle to close it */
+.tree-view_arrow-collapsed {
+  -webkit-transform: rotate(-90deg)!important;
+  -moz-transform: rotate(-90deg) !important;
+  -ms-transform: rotate(-90deg) !important;
+  transform: rotate(-90deg) !important;
+}
+
+.node {
+  -moz-transition: all 0.5s !important;
+  -o-transition: all 0.5s !important;
+  -ms-transition: all 0.5s !important;
+  -webkit-transition: all 0.5s !important;
+  transition: all 0.5s !important;
+  border-radius: 3px !important;
+}
+
+.node:hover {
+  background-color: rgb(220, 245, 243) !important;
+  cursor: pointer !important;
+}
+
+.info  {
+  padding: 2px 0px 2px 0px !important;
+cursor: pointer !important;
+margin-top: 2px !important;
+margin-bottom: 2px !important;
+font-family: tahoma !important;
+font-size: 13px !important;
+color:#ab4515 !important;
+/* font-weight: 700 !important; */
+-webkit-user-select: none !important;
+-moz-user-select: none !important;
+-ms-user-select: none !important;
+user-select: none !important;
+}
+
+.folder {
+  padding: 2px 0px 2px 0px !important;
+  cursor: pointer !important;
+  margin-top: 2px !important;
+  margin-bottom: 2px !important;
+  font-family: tahoma !important;
+  font-size: 13px !important;
+  color:black !important;
+  font-weight: bold !important;
+  -webkit-user-select: none !important;
+  -moz-user-select: none !important;
+  -ms-user-select: none !important;
+  user-select: none !important;
+}
+
+.subfolder {
+  padding: 2px 0px 2px 0px !important;
+  cursor: pointer !important;
+  margin-top: 2px !important;
+  margin-bottom: 2px !important;
+  font-family: tahoma !important;
+  font-size: 13px !important;
+  color:black !important;
+  /* font-weight: 700 !important; */
+  -webkit-user-select: none !important;
+  -moz-user-select: none !important;
+  -ms-user-select: none !important;
+  user-select: none !important;
+}
+
+.tree-view_arrow {
+  -moz-transition: all 0.1s !important;
+  -o-transition: all 0.1s !important;
+  -ms-transition: all 0.1s !important;
+  -webkit-transition: all 0.1s !important;
+  transition: all 0.1s !important;
+}
+
+.tree-view_arrow-empty {
+  color: yellow !important;
+}
+
+
+.container {
+  text-align: center;
+  padding: 15px;
+}
+
+.csv-input {
+  padding: 10px;
+  display: block;
+  margin: 17px auto;
+  border-radius: 5px;
+  margin-top: 18%;
+}
+
+.container p {
+  padding-top: 10px;
+  color: #666;
+}
